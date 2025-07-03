@@ -2,6 +2,11 @@
 
 Demonstrates how Aspire4Wasm makes .NET Aspire work with hosted Blazor WebAssembly apps.
 
+Note that, even with the new "Blazor United" template, as soon as you select InteractiveAuto as the default rendermode for your Blazor Web App project, it ceases to be "united". It will be divided into two projects, just like a hosted WebAssembly project. I'm not saying that's wrong. It just does. Aspire4Wasm works the same way for both.
+
+If you're more interested in stand-alone Blazor WebAssembly apps, there's a sample for that at: https://github.com/BenjaminCharlton/Aspire4Wasm.Samples.Standalone
+
+
 ## Learn more about Aspire4Wasm
 
 Learn more about Aspire4Wasm here: https://github.com/BenjaminCharlton/Aspire4Wasm
