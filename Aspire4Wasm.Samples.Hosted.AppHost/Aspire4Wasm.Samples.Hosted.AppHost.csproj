@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsAspireHost>true</IsAspireHost>
+		<UserSecretsId>2daa92fa-97df-4666-81dd-e261d634438d</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="9.3.1" />
+		<PackageReference Include="Aspire4Wasm.AppHost" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Aspire4Wasm.Samples.Hosted.UI.Client\Aspire4Wasm.Samples.Hosted.UI.Client.csproj" />
+	  <ProjectReference Include="..\Aspire4Wasm.Samples.Hosted.UI.Server\Aspire4Wasm.Samples.Hosted.UI.Server.csproj" />
+	  <ProjectReference Include="..\Aspire4Wasm.Samples.Hosted.WebApi\Aspire4Wasm.Samples.Hosted.WebApi.csproj" />
+	</ItemGroup>
+
+</Project>
