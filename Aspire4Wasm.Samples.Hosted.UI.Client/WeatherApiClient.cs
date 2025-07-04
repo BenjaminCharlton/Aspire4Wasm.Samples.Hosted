@@ -2,10 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using Aspire4Wasm.Samples.Hosted.HttpContracts;
-using Aspire4Wasm.Samples.Hosted.UI;
 using System.Net.Http.Json;
 
-namespace Aspire4Wasm.Samples.Hosted.Client;
+namespace Aspire4Wasm.Samples.Hosted.UI.Client;
 
 public class WeatherApiClient(HttpClient httpClient) : IWeatherClient
 {

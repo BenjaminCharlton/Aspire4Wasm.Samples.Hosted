@@ -1,5 +1,5 @@
-using Aspire4Wasm.Samples.Hosted.Client;
 using Aspire4Wasm.Samples.Hosted.UI;
+using Aspire4Wasm.Samples.Hosted.UI.Client;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
